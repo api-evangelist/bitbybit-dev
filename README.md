@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bitbybit-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://bitbybit.dev/
+Bitbybit provides a browser‑based 3D CAD and configurator platform that enables developers to create, render, and manipulate complex geometry using a rich TypeScript API. The service integrates multiple modeling kernels such as OpenCascade, JSCAD, Manifold, BabylonJS, Three.js and PlayCanvas, offering algorithms for shapes, boolean operations, meshing, curves, surfaces, and real‑time rendering. It also supplies cloud‑hosted editors, project galleries, and a marketplace of 3D models, targeting designers, engineers, and e‑commerce developers.
+
+**Areas:** 3D CAD · TypeScript · API · Platform · Creative Coding · Modeling
+
+## bitbybit-dev on APIs.io
+
+Everything profiled for bitbybit-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bitbybit-dev/](https://apis.io/providers/bitbybit-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [bitbybit-dev CAD Operations API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-cad-operations-api/) — The CAD Operations API from bitbybit-dev — 3 operation(s) for cad operations.
+- [bitbybit-dev Convert API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-convert-api/) — The Convert API from bitbybit-dev — 4 operation(s) for convert.
+- [bitbybit-dev Files API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-files-api/) — The Files API from bitbybit-dev — 4 operation(s) for files.
+- [bitbybit-dev Health API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-health-api/) — The Health API from bitbybit-dev — 1 operation(s) for health.
+- [bitbybit-dev Models API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-models-api/) — The Models API from bitbybit-dev — 5 operation(s) for models.
+- [bitbybit-dev Models - Dragon Cup API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-models-dragon-cup-api/) — The Models - Dragon Cup API from bitbybit-dev — 1 operation(s) for models - dragon cup.
+- [bitbybit-dev Models - Phone Nest API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-models-phone-nest-api/) — The Models - Phone Nest API from bitbybit-dev — 1 operation(s) for models - phone nest.
+- [bitbybit-dev Sheet Metal API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-sheet-metal-api/) — The Sheet Metal API from bitbybit-dev — 5 operation(s) for sheet metal.
+- [bitbybit-dev Tasks API](https://apis.io/apis/bitbybit-dev/bitbybit-dev-tasks-api/) — The Tasks API from bitbybit-dev — 6 operation(s) for tasks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Bitbybit Dev Agentic Access](https://apis.io/agentic-access/bitbybit-dev/bitbybit-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FileUploadBody](https://apis.io/schemas/bitbybit-dev/bitbybit-dev-file-upload-body/)
+- [PipelineBody](https://apis.io/schemas/bitbybit-dev/bitbybit-dev-pipeline-body/)
+- [StepToGltfBody](https://apis.io/schemas/bitbybit-dev/bitbybit-dev-step-to-gltf-body/)
+- [StepToGltfWithDracoBody](https://apis.io/schemas/bitbybit-dev/bitbybit-dev-step-to-gltf-with-draco-body/)
+- [UnfoldSolidBody](https://apis.io/schemas/bitbybit-dev/bitbybit-dev-unfold-solid-body/)
+- [UnfoldSolidToFlatBody](https://apis.io/schemas/bitbybit-dev/bitbybit-dev-unfold-solid-to-flat-body/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bitbybit Dev Context](https://apis.io/jsonld/bitbybit-dev/bitbybit-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [bitbybit-dev API Rules](https://apis.io/rules/bitbybit-dev/bitbybit-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bitbybit Dev Authentication](https://apis.io/security/bitbybit-dev/bitbybit-dev-authentication/)
+- [Bitbybit Dev Domain Security](https://apis.io/security/bitbybit-dev/bitbybit-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Bitbybit Dev Scopes](https://apis.io/scopes/bitbybit-dev/bitbybit-dev-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bitbybit.dev/)
+- [Documentation](https://docs.bitbybit.dev/)
+- [Getting started](https://learn.bitbybit.dev/learn/intro)
+- [API reference](https://docs.bitbybit.dev/)
+- [Pricing](https://bitbybit.dev/auth/pick-plan)
+- [Sign up](https://bitbybit.dev/auth/sign-up)
+- [Blog](https://learn.bitbybit.dev/blog)
+- [Terms of service](https://bitbybit.dev/terms-and-conditions)
+- [Privacy policy](https://bitbybit.dev/privacy-policy)
+- [GitHub](https://github.com/bitbybit-dev)
+
+## API Evangelist rating
+
+**Kin Score 56.8** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 44.7 |
+
+**Agent readiness 40.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bitbybit-dev/](https://apis.io/providers/bitbybit-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for bitbybit-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bitbybit-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
